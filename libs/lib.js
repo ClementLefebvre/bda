@@ -51,13 +51,12 @@ function lz(){
 	};	
 	
 function cours(){
-	$(".mainConteneur").html("");
-		
+	$("#mainConteneur").load("cours.html");
 	
 	};	
 	
 	function contact(){
-	$(".mainConteneur").html("");
+	$("#mainConteneur").load("contact.html");
 		
 	
 	};	
