@@ -1,0 +1,35 @@
+Exemple de séquence d'appels (l'ordre chronologique est important !) à la page data
+
+http://localhost/web2/ctp/data.php
+{"connecte":false,"action":false,"feedback":"Entrez connexion(login,passe) (eg 'tom','bou')"} 
+
+http://localhost/web2/ctp/data.php?action=connexion&login=tom&passe=bou
+{"connecte":true,"action":"connexion","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ..."} 
+
+http://localhost/web2/ctp/data.php
+{"connecte":true,"action":false,"feedback":"Entrez connexion(login,passe) (eg 'tom','bou')"} 
+
+http://localhost/web2/ctp/data.php?action=getConversations
+{"connecte":true,"action":"getConversations","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","conversations":[{"id":"1","active":"1","theme":"Coupe de France"},{"id":"2","active":"1","theme":"Web2"}]} 
+
+http://localhost/web2/ctp/data.php?action=setConversation&theme=Nouvelle%20conversation
+{"connecte":true,"action":"setConversation","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","idConv":"3"} 
+
+http://localhost/web2/ctp/data.php?action=getMessages&idConv=1
+{"connecte":true,"action":"getMessages","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","messages":[{"id":"1","contenu":"D'apr\u00e8s vous, qui va gagner la finale de la Coupe de la ligue ?","auteur":"tom","couleur":"#0000ff"},{"id":"4","contenu":"Le Losc ! ","auteur":"arnaud","couleur":"red"}],"idLastMessage":"4"} 
+
+http://localhost/web2/ctp/data.php?action=getMessages&idConv=1&idLastMessage=1
+{"connecte":true,"action":"getMessages","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","messages":[{"id":"4","contenu":"Le Losc ! ","auteur":"arnaud","couleur":"red"}],"idLastMessage":"4"} 
+
+http://localhost/web2/ctp/data.php?action=setMessage&idConv=1&contenu=esp%C3%A9rons-le...
+{"connecte":true,"action":"setMessage","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","messages":[{"id":"1","contenu":"D'apr\u00e8s vous, qui va gagner la finale de la Coupe de la ligue ?","auteur":"tom","couleur":"#0000ff"},{"id":"4","contenu":"Le Losc ! ","auteur":"arnaud","couleur":"red"},{"id":"5","contenu":"esp\u00e9rons-le...","auteur":"tom","couleur":"#0000ff"}],"idLastMessage":"5"} 
+
+http://localhost/web2/ctp/data.php?action=delConversation&idConv=3
+{"connecte":true,"action":"delConversation","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ..."} 
+
+http://localhost/web2/ctp/data.php?action=getConversations
+{"connecte":true,"action":"getConversations","feedback":"entrez action: logout, setCouleur(couleur),getConversations, getMessages(idConv,[idLastMessage]), setMessage(idConv,contenu), setConversation(theme), ...","conversations":[{"id":"1","active":"1","theme":"Coupe de France"},{"id":"2","active":"1","theme":"Web2"}]} 
+
+http://localhost/web2/ctp/data.php?action=logout
+{"connecte":false,"action":"logout","feedback":"Entrez login,passe (eg 'user','passe')"} 
+

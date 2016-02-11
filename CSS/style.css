@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+html { 
+  margin:0;
+  padding:0;
+  background: url(../images/fond.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+#cadreLogo{
+
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid 1px black;
+	background-color: rgba(226,226,226,0.5);
+}
+#logo{
+	width: 30%;
+	margin-left:35%;
+}
+#mainConteneur{
+	background-color: grey;
+	width: 80%;
+	border: solid 1px black;
+	height: auto;
+	margin-left: 10%;
+}
+table{
+	background-color: #EEEEEE;
+	width: 80%;
+	border: solid 2px black;
+	height: 60px;
+	margin-left: 10%;
+}
+tr{
+text-align:center;	
+}
+td{
+	border: solid 1px black;
+}
+td:hover{
+background-color: lightgrey;
+}
+#titre{
+text-align:center;	
+margin-top: 60px;
+}
+.articles{
+border: 1px solid black;
+width: 60%;
+margin-left: 5%;	
+background-color: #EEEEEE;
+margin-top: 50px;
+text-align:left;
+font-size: 16px;
+}
+#giphy{
+	margin-left: 47.5%;
+	width: 50px;	
+}
+
+

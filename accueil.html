@@ -1,0 +1,23 @@
+<script>
+$(".mainConteneur").html("");
+		$("#titre").remove();
+		var titre = $("<h2 id=\"titre\"> Accueil </h2>");
+		$("#mainConteneur").prepend(titre);
+		$.getJSON("data.php",{"action":"getP"},function(oRep){
+			console.log(oRep);
+			for(i=0; i<=2 ; i++)
+			{
+				//console.log(i);
+			var dataP1 = oRep.articles[i];
+			
+			//console.log(dataP1);
+			var nextA = $("<div class=\"articles\"><p>" + "(" + dataP1.date +" || "+ dataP1.time +") " + dataP1.corps +  "</p></div>").data("dataP",dataP1);
+			$("#titre").append(nextA);
+			$(".articles").hide();
+			}
+			
+			//$(".articles").show();
+			effect(".articles","clip");
+		});
+	
+</script>
