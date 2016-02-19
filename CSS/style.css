@@ -1,29 +1,184 @@
 @charset "UTF-8";
 
+#menu{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#accueil{
+	background: url("../images/vect_01.png"), rgb(50,50,50);
+	background-repeat: no-repeat;
+	background-position: -480px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#accueil:hover{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#asso{
+	background: url("../images/vect_04.png"), rgb(50,50,50);
+	background-repeat: no-repeat;
+	background-position: -480px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#asso:hover{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#letsZik{
+	background: url("../images/vect_05.png"), rgb(50,50,50);
+	background-repeat: no-repeat;
+	background-position: -480px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#letsZik:hover{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#contact{
+	background: url("../images/vect_02.png"), rgb(50,50,50);
+	background-repeat: no-repeat;
+	background-position: -480px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#contact:hover{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#cours{
+	background: url("../images/vect_03.png"), rgb(50,50,50);
+	background-repeat: no-repeat;
+	background-position: -480px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#cours:hover{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.boutonMenu {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+ 	flex: 1;
+  height: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  font: normal 16px/normal "electrolize", Helvetica, sans-serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+  box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+  -webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.boutonMenu:hover {
+  text-indent: 50%;
+  -webkit-box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
+  box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
+  -webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transform:   translateY(2px) ;
+  transform:   translateY(2px) ;
+}
+
+.boutonMenu:active {
+  font: normal normal bold 16px/normal "electrolize", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transform:   translateY(4px) ;
+  transform:   translateY(4px) ;
+}
+
 html { 
   margin:0;
   padding:0;
-  background: url(../images/fond.jpg) no-repeat center fixed; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+  background-color: white;
 }
 #cadreLogo{
 
-	margin-left: 10%;
-	margin-right: 10%;
-	border: solid 1px black;
-	background-color: rgba(226,226,226,0.5);
 }
 #logo{
 	width: 30%;
 	margin-left:35%;
 }
 #mainConteneur{
-	background-color: grey;
-	width: 80%;
-	border: solid 1px black;
 	height: auto;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 table{
 	background-color: #EEEEEE;
@@ -31,15 +186,6 @@ table{
 	border: solid 2px black;
 	height: 60px;
 	margin-left: 10%;
-}
-tr{
-text-align:center;	
-}
-td{
-	border: solid 1px black;
-}
-td:hover{
-background-color: lightgrey;
 }
 #titre{
 text-align:center;	
