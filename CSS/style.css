@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*-Les boutons-*/
 #menu{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -117,56 +118,58 @@
 }
 
 .boutonMenu {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
- 	flex: 1;
-  height: 20px;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  font: normal 16px/normal "electrolize", Helvetica, sans-serif;
-  color: rgba(255,255,255,0.9);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  -webkit-box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
-  box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
-  -webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  -moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  -o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+		flex: 1;
+	height: 20px;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	font: normal 16px/normal "electrolize", Helvetica, sans-serif;
+	color: rgba(255,255,255,0.9);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	-webkit-box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+	box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+	-webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	-moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	-o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .boutonMenu:hover {
-  text-indent: 50%;
-  -webkit-box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
-  box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
-  -webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  -moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  -o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  -webkit-transform:   translateY(2px) ;
-  transform:   translateY(2px) ;
+	text-indent: 50%;
+	-webkit-box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
+	box-shadow: 0 2px 0 0 rgba(180,180,180,1) ;
+	-webkit-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	-moz-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	-o-transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	transition: text-indent 0.5s cubic-bezier(0.77, 0, 0.175, 1), transform 0.2s cubic-bezier(0.77, 0, 0.175, 1), box-shadow 0.2s cubic-bezier(0.77, 0, 0.175, 1), background-position 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+	-webkit-transform:   translateY(2px) ;
+	transform:   translateY(2px) ;
 }
 
 .boutonMenu:active {
-  font: normal normal bold 16px/normal "electrolize", Helvetica, sans-serif;
-  color: rgba(255,255,255,1);
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-  -webkit-transform:   translateY(4px) ;
-  transform:   translateY(4px) ;
+	font: normal normal bold 16px/normal "electrolize", Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	-webkit-transform:   translateY(4px) ;
+	transform:   translateY(4px) ;
 }
 
+/*-Les boutons-*/
 html { 
-  margin:0;
-  padding:0;
-  background-color: white;
+	font: normal 16px/normal "electrolize", Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	background-color: white;
 }
 #cadreLogo{
 
@@ -181,24 +184,77 @@ html {
 	margin-right: 10%;
 }
 table{
-	background-color: #EEEEEE;
 	width: 80%;
 	border: solid 2px black;
 	height: 60px;
 	margin-left: 10%;
 }
-#titre{
-text-align:center;	
-margin-top: 60px;
+
+/*-Les titres-*/
+.titre{
+	height: 10px;
+	font: normal normal bold 20px/normal "electrolize", Helvetica, sans-serif;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	text-shadow: 2px 2px 0 rgba(255,255,255,1) , 2px -2px 0 rgba(255,255,255,1) , -2px 2px 0 rgba(255,255,255,1) , -2px -2px 0 rgba(255,255,255,1) , 0 2px 0 rgba(255,255,255,1) , 2px 0 0 rgba(255,255,255,1) , 0 -2px 0 rgba(255,255,255,1) , -2px 0 0 rgba(255,255,255,1) ;
+	margin-top: 20px;
+
 }
+
+#tAccueil{
+
+	background: rgb(90,236,243); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(90,236,243) 0%, rgb(40,81,116) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aecf3', endColorstr='#285174',GradientType=1 ); /* IE6-9 */
+}
+
+#tLetsZik{
+
+	background: rgb(237,93,110); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(237,93,110) 0%, rgb(40,81,116) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(237,93,110) 0%,rgb(40,81,116) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(237,93,110) 0%,rgb(40,81,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed5d6e', endColorstr='#285174',GradientType=1 ); /* IE6-9 */
+
+}
+#tCours{
+
+	background: rgb(90,236,243); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(90,236,243) 0%, rgb(40,81,116) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aecf3', endColorstr='#285174',GradientType=1 ); /* IE6-9 */
+}
+#tContact{
+
+	background: rgb(90,236,243); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(90,236,243) 0%, rgb(40,81,116) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aecf3', endColorstr='#285174',GradientType=1 ); /* IE6-9 */
+}
+#tAsso{
+
+	background: rgb(90,236,243); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(90,236,243) 0%, rgb(40,81,116) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(90,236,243) 0%,rgb(40,81,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aecf3', endColorstr='#285174',GradientType=1 ); /* IE6-9 */
+}
+/*-Les titres-*/
 .articles{
-border: 1px solid black;
-width: 60%;
-margin-left: 5%;	
-background-color: #EEEEEE;
-margin-top: 50px;
-text-align:left;
-font-size: 16px;
+	width: 60%;	
+	color: rgba(255,255,255,0.9);
+	background-color: rgb(50,50,50);
+	-webkit-box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+	box-shadow: 0 4px 0 0 rgba(180,180,180,1) ;
+	margin-top: 50px;
+	padding: 10px;
+	text-align:left;
+	font-size: 16px;
 }
 #giphy{
 	margin-left: 47.5%;
