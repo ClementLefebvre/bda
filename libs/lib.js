@@ -18,14 +18,13 @@ function callback() {
 	
 function effect(object, effect)
 	{
-	  var selectedEffect = effect;
 	  var options = {};
-	  if ( selectedEffect === "scale" ) {
+	  if ( effect === "scale" ) {
 		options = { percent: 100 };
-	  } else if ( selectedEffect === "size" ) {
+	  } else if ( effect === "size" ) {
 		options = { to: { width: 280, height: 185 } };
 	  }
-	  $(object).show( selectedEffect, options, 500, callback );
+	  $(object).show( effect, options, 500, callback );
 	}
 	
 //##############################################################
@@ -33,32 +32,28 @@ function effect(object, effect)
 //##############################################################
 
 function accueil(){
-		$("#mainConteneur").load("accueil.html");
+	$("#mainConteneur").load("_accueil.html");
 		
-	};	
+};	
 	
 function asso(){
-		$("#mainConteneur").load("asso.html");
+	$("#mainConteneur").load("_asso.html");
 		
-		
-	};	
-function lz(){
-		$("#mainConteneur").load("lz.html");
-		
-	
-		
-	
-	};	
+};
+
+function letsZik(){
+	$("#mainConteneur").load("_letsZik.html");
+};	
 	
 function cours(){
-	$("#mainConteneur").load("cours.html");
+	$("#mainConteneur").load("_cours.html");
 	
-	};	
+};	
 	
-	function contact(){
-	$("#mainConteneur").load("contact.html");
+function contact(){
+	$("#mainConteneur").load("_contact.html");
 		
 	
-	};	
+};	
 		
 	

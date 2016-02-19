@@ -17,8 +17,6 @@
 	$(document).ready(function(e) {
 		var waiter = $("<img id=\"giphy\" alt=\"Gif Attent\" src=\"images/ajaxLoader2.gif\"/>");
 		$("#mainConteneur").prepend(waiter);
-		var titre = $("<h2 id=\"titre\"> Accueil </h2>");
-		$("#mainConteneur").prepend(titre);
 
 		setTimeout(function() 
 		  {
@@ -43,7 +41,7 @@
 					asso();
 				break;
 				case "Let's Zik": 
-					lz();
+					letsZik();
 				break;
 				case "Cours": 
 					cours();

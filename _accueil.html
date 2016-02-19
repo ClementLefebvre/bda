@@ -3,6 +3,8 @@
 	$("#titre").remove();
 	var titre = $("<div class=\"titre\" id=\"tAccueil\"> Accueil </div>");
 	$("#mainConteneur").prepend(titre);
+	$(".titre").hide();
+	effect(".titre","slide");
 	$.getJSON("data.php",{"action":"getP"},function(oRep){
 
 		console.log(oRep);
@@ -19,7 +21,7 @@
 		}
 		
 		//$(".articles").show();
-		effect(".articles","clip");
+		effect(".articles","slide");
 	});
 	
 </script>
