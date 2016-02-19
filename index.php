@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="CSS/style.css" />
 		<!-- <link rel="icon" type="image/png" href="/images/icone.ico" />-->
 		<link rel="shortcut icon" href="images/icone.ico">
+		<link rel="stylesheet" href="ism/css/my-slider.css"/>
 		<meta charset="UTF-8">
 		<title>BDA IG2I</title>
 	</head>
